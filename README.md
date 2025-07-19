@@ -49,7 +49,27 @@ This is a fun console-based implementation of the classic **Stone-Paper-Scissors
 2. Save the file as `Game-stone-paper-scissors.cpp`.
 3. Compile and run:
 
-```bash
-g++ Game-stone-paper-scissors.cpp -o Game
-./Game
+📌 Example Output
 
+Round [1] begins:
+Enter your choice : [1]:Paper, [2]:Stone, [3]:Scissors : 1
+Player 1 Choice : Paper
+Computer Choice : Stone
+Round Winner : [Player1]
+
+... (repeats for each round)
+
+Final results summary:
+Player1 won times   : 3
+Computer won times  : 2
+Draw Times          : 1
+Final Winner        : Player1
+
+🔁 Play Again Option
+After each game session, the player is asked:
+
+Do you want to play again? Y/N?
+Type Y to restart or N to exit.
+
+📄 File Info
+Game-stone-paper-scissors.cpp: Main source file, contains the entire game logic.
